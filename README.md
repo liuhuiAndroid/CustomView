@@ -9,6 +9,6 @@
 - [Android 深入理解Android中的自定义属性](http://blog.csdn.net/lmj623565791/article/details/45022631)
 - [Android ViewDragHelper完全解析 自定义ViewGroup神器](http://blog.csdn.net/lmj623565791/article/details/46858663)
 ## Reference
-- [http://blog.csdn.net/lmj623565791/article/category/2680591](http://blog.csdn.net/lmj623565791/article/category/2680591)
+- [Android 自定义控件之起步](http://blog.csdn.net/lmj623565791/article/category/2680591)
 ## Thanks
 - [CSDN：张鸿洋](http://blog.csdn.net/lmj623565791)
