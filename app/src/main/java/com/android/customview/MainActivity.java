@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 import com.android.customview.first.FirstActivity;
+import com.android.customview.second.SecondActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -31,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.btn_second)
     public void mBtnSecond(){
-
+        Intent intent = new Intent(this,SecondActivity.class);
+        startActivity(intent);
     }
 
 

@@ -76,6 +76,8 @@ public class CustomTitleView extends View {
             @Override
             public void onClick(View v) {
                 mTitleText = randomText();
+                // invalidate和postInvalidate都是用来重绘View搜索，
+                // 区别就是invalidate只能在主线程中调用，postInvalidate可以在子线程中调用 requestLayout则是请求重新布局View
                 postInvalidate();
             }
         });
@@ -83,7 +85,7 @@ public class CustomTitleView extends View {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+//        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         int width,height;
 
         int widthMode = MeasureSpec.getMode(widthMeasureSpec);
@@ -109,7 +111,7 @@ public class CustomTitleView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        super.onDraw(canvas);
+//        super.onDraw(canvas);
         mPaint.setColor(Color.YELLOW);
         canvas.drawRect(0,0,getMeasuredWidth(),getMeasuredHeight(),mPaint);
                             //600 300
