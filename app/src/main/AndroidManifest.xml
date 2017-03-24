@@ -18,6 +18,8 @@
 
         <activity android:name=".first.FirstActivity"/>
         <activity android:name=".second.SecondActivity"/>
+        <activity android:name=".third.ThirdActivity"/>
+        <activity android:name=".fourth.FourthActivity"/>
 
     </application>
 

@@ -29,6 +29,16 @@
                 android:text="自定义View（二）"
                 style="@style/MainButton"/>
 
+            <Button
+                android:id="@+id/btn_third"
+                android:text="自定义View（三）"
+                style="@style/MainButton"/>
+
+            <Button
+                android:id="@+id/btn_four"
+                android:text="自定义View（四）"
+                style="@style/MainButton"/>
+
         </LinearLayout>
 
     </ScrollView>
