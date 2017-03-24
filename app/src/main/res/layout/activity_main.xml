@@ -39,6 +39,21 @@
                 android:text="自定义View（四）"
                 style="@style/MainButton"/>
 
+            <Button
+                android:id="@+id/btn_first_view_group"
+                android:text="自定义ViewGroup"
+                style="@style/MainButton"/>
+
+            <Button
+                android:id="@+id/btn_custom_attr"
+                android:text="深入理解自定义属性"
+                style="@style/MainButton"/>
+
+            <Button
+                android:id="@+id/btn_view_drag_helper"
+                android:text="初识ViewDragHelper"
+                style="@style/MainButton"/>
+
         </LinearLayout>
 
     </ScrollView>

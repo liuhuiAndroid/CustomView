@@ -5,7 +5,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <com.android.customview.fourth.CustomVolumControlBar
+    <com.android.customview.acquaintance.fourth.CustomVolumControlBar
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginTop="20dp"
@@ -18,7 +18,7 @@
         app:splitSize="25"
         app:bg="@mipmap/ic_launcher"/>
 
-    <com.android.customview.fourth.CustomVolumControlBar
+    <com.android.customview.acquaintance.fourth.CustomVolumControlBar
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_gravity="center"
@@ -30,7 +30,7 @@
         app:secondColor="#ff0000"
         app:splitSize="15" />
 
-    <com.android.customview.fourth.CustomVolumControlBar
+    <com.android.customview.acquaintance.fourth.CustomVolumControlBar
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="bottom"

@@ -5,10 +5,13 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.android.customview.first.FirstActivity;
-import com.android.customview.fourth.FourthActivity;
-import com.android.customview.second.SecondActivity;
-import com.android.customview.third.ThirdActivity;
+import com.android.customview.acquaintance.customattr.CustomAttrActivity;
+import com.android.customview.acquaintance.first.FirstActivity;
+import com.android.customview.acquaintance.firstviewgroup.FirstViewGroupActivity;
+import com.android.customview.acquaintance.fourth.FourthActivity;
+import com.android.customview.acquaintance.second.SecondActivity;
+import com.android.customview.acquaintance.third.ThirdActivity;
+import com.android.customview.acquaintance.viewdraghelper.ViewDragHelperActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -26,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
     }
+
+    // ============  初识自定义View  ===============
 
     @OnClick(R.id.btn_first)
     public void mBtnFirst(){
@@ -51,5 +56,22 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @OnClick(R.id.btn_first_view_group)
+    public void mBtnFirstViewGroup() {
+        Intent intent = new Intent(this, FirstViewGroupActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.btn_custom_attr)
+    public void mBtnCustomAttr() {
+        Intent intent = new Intent(this, CustomAttrActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.btn_view_drag_helper)
+    public void mBtnViewDragHelper() {
+        Intent intent = new Intent(this, ViewDragHelperActivity.class);
+        startActivity(intent);
+    }
 
 }

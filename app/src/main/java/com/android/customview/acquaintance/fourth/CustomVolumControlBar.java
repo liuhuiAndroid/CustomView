@@ -1,4 +1,4 @@
-package com.android.customview.fourth;
+package com.android.customview.acquaintance.fourth;
 
 import android.content.Context;
 import android.content.res.TypedArray;

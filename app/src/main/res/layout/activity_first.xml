@@ -5,7 +5,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <com.android.customview.first.CustomTitleView
+    <com.android.customview.acquaintance.first.CustomTitleView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:titleText="3712"

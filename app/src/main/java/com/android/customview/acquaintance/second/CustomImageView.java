@@ -1,4 +1,4 @@
-package com.android.customview.second;
+package com.android.customview.acquaintance.second;
 
 import android.content.Context;
 import android.content.res.TypedArray;

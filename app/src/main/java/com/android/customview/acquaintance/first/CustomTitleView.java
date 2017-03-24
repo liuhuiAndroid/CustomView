@@ -1,4 +1,4 @@
-package com.android.customview.first;
+package com.android.customview.acquaintance.first;
 
 import android.content.Context;
 import android.content.res.TypedArray;

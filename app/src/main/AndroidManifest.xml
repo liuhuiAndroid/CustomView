@@ -16,10 +16,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".first.FirstActivity"/>
-        <activity android:name=".second.SecondActivity"/>
-        <activity android:name=".third.ThirdActivity"/>
-        <activity android:name=".fourth.FourthActivity"/>
+        <activity android:name=".acquaintance.first.FirstActivity"/>
+        <activity android:name=".acquaintance.second.SecondActivity"/>
+        <activity android:name=".acquaintance.third.ThirdActivity"/>
+        <activity android:name=".acquaintance.fourth.FourthActivity"/>
+        <activity android:name=".acquaintance.firstviewgroup.FirstViewGroupActivity"/>
+        <activity android:name=".acquaintance.customattr.CustomAttrActivity"/>
+        <activity android:name=".acquaintance.viewdraghelper.ViewDragHelperActivity"/>
 
     </application>
 
