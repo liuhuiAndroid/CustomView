@@ -55,6 +55,8 @@ public class VDHLayout2 extends LinearLayout {
                 mViewDragHelper.captureChildView(mEdgeTrackerView,pointerId);
             }
 
+            //如果子View不消耗事件，下面两个方法返回大于0的值才能正常的捕获
+            //方法的返回值应当是该childView横向或者纵向的移动的范围，当前如果只需要一个方向移动，可以只复写一个。
             @Override
             public int getViewHorizontalDragRange(View child) {
                 return getMeasuredWidth() - child.getMeasuredWidth();
@@ -72,6 +74,7 @@ public class VDHLayout2 extends LinearLayout {
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
+        //①
         return mViewDragHelper.shouldInterceptTouchEvent(ev);
     }
 
