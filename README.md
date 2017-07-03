@@ -1,4 +1,4 @@
-# CustomView
+# CustomView （现已合并到wwh项目）
 > 参照Hongyang的CSDN博客来学习自定义View。如有错误欢迎指正，如有侵权，请联系我删除。
 ## Blog Catalogue
 - [ Android 自定义View (一)](http://blog.csdn.net/lmj623565791/article/details/24252901)
